@@ -211,26 +211,32 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .group2 {
-    margin: 76px 32px 76px 32px;
+    margin: 50px 32px 50px 32px;
+    
   }
 
- body .group2 {
-    padding-top: 32px;
-  } 
+  body .group2 {
+    padding: 0;
+  }
+
+  
 
   .group1 {
     font-size: 24px;
   }
 
   .paragrafo1 {
-    margin-bottom: 86px;
+     
     margin-top: 16px;
+     
   }
 
   .blocks {
     display: flex;
     flex-direction: column;
     gap: 25px;
+     
+    height: 1360px;
     
   }
 
@@ -238,7 +244,6 @@ footer {
     width: 311px;
   }
 
-  .footer {
-    margin-top: 78px;
-  }
+   
+   
 }
