@@ -18,7 +18,7 @@ body {
 }
 
 body .group2 {
-  padding: 80px 452px 0 452px;
+ padding-top: 80px ;
   display: flex;
   flex-direction: column;
 
@@ -44,9 +44,9 @@ body .group2 {
   color: #4d4f62;
 }
 
-body .blocks {
+/*body .blocks {
   padding: 46px 165px 80px 165px;
-}
+}*/
 
 .blocks {
   display: grid;
@@ -214,9 +214,9 @@ footer {
     margin: 76px 32px 76px 32px;
   }
 
-  body .group2 {
-    padding: 0;
-  }
+ body .group2 {
+    padding-top: 32px;
+  } 
 
   .group1 {
     font-size: 24px;
