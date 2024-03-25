@@ -211,7 +211,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .group2 {
-    margin: 85px 32px 76px 32px;
+    margin: 76px 32px 76px 32px;
   }
 
   body .group2 {
@@ -223,7 +223,7 @@ footer {
   }
 
   .paragrafo1 {
-    margin-bottom: 76px;
+    margin-bottom: 86px;
     margin-top: 16px;
   }
 
