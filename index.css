@@ -231,6 +231,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-top: 76px;
   }
 
   .blocks .block1 .block2 .block3 .block4 {
