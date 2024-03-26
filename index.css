@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body .group2 {
+body .first-block {
  padding-top: 80px ;
   display: flex;
   flex-direction: column;
@@ -25,18 +25,18 @@ body .group2 {
   text-align: center;
 }
 
-.group2 span {
+.first-block span {
   font-weight: 600;
 }
 
-.group1 {
+.heading-one {
   font-size: 36px;
   font-weight: 200;
   letter-spacing: 0.25px;
   color: #4d4f62;
 }
 
-.paragrafo1 {
+.main-paragraph {
   text-align: center;
   font-size: 15px;
   font-weight: 200;
@@ -44,11 +44,9 @@ body .group2 {
   color: #4d4f62;
 }
 
-/*body .blocks {
-  padding: 46px 165px 80px 165px;
-}*/
+ 
 
-.blocks {
+.second-block {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
@@ -61,7 +59,7 @@ body .group2 {
   width: 100vw;
 }
 
-.block1 {
+.card-one {
   border-top: 4px solid #00c8c8;
   width: 350px;
   height: 250px;
@@ -71,11 +69,11 @@ body .group2 {
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
-.blocks .block1 {
+.second-block .card-one {
   grid-row: 1 / span 2;
 }
 
-.block1 .img1 {
+.card-one .img1 {
   content: url(images/icon-supervisor.svg);
   width: 64px;
   margin-left: 230px;
@@ -96,7 +94,7 @@ body .group2 {
   margin: 6px;
 }
 
-.block2 {
+.card-two {
   border-top: 4px solid #ff637b;
   width: 350px;
   height: 250px;
@@ -106,11 +104,11 @@ body .group2 {
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
-.block2 {
-  grid-column-start: 2;
+.card-two {
+  grid-column-start: -3;
 }
 
-.block2 .img2 {
+.card-two .img2 {
   content: url(images/icon-team-builder.svg);
   width: 64px;
   margin-left: 230px;
@@ -131,11 +129,12 @@ body .group2 {
   margin: 6px;
 }
 
-.block3 img {
+/*.block3 img {
   grid-area: imagem1;
   padding: 154px 32px 32px 256px;
-}
-.block3 {
+}*/
+
+.card-three {
   border-top: 4px solid #ff9100;
   width: 350px;
   height: 250px;
@@ -145,11 +144,11 @@ body .group2 {
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
-.block3 {
-  grid-row-start: -3;
+.card-three {
+  grid-row-start: 2;
 }
 
-.block3 .img3 {
+.card-three .img3 {
   content: url(images/icon-karma.svg);
   width: 64px;
   margin-left: 230px;
@@ -170,7 +169,7 @@ body .group2 {
   margin: 6px;
 }
 
-.block4 {
+.card-four {
   border-top: 4px solid #377fd2;
   width: 350px;
   height: 250px;
@@ -180,11 +179,11 @@ body .group2 {
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
-.block4 {
+.card-four {
   grid-row: 1 / 3;
 }
 
-.block4 .img4 {
+.card-four .img4 {
   content: url(images/icon-calculator.svg);
   width: 64px;
   margin-left: 230px;
@@ -205,33 +204,33 @@ body .group2 {
   margin: 6px;
 }
 
-footer {
+.card-footer {
   margin-top: 78px;
 }
 
 @media only screen and (max-width: 768px) {
-  .group2 {
+  .first-block {
     margin: 50px 32px 50px 32px;
     
   }
 
-  body .group2 {
+  body .first-block {
     padding: 0;
   }
 
   
 
-  .group1 {
+  .heading-one {
     font-size: 24px;
   }
 
-  .paragrafo1 {
+  .main-paragraph {
      
     margin-top: 16px;
      
   }
 
-  .blocks {
+  .second-block {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -240,7 +239,7 @@ footer {
     
   }
 
-  .blocks .block1 .block2 .block3 .block4 {
+  .second-block .card-one .card-two .card-three .card-four {
     width: 311px;
   }
 
