@@ -17,12 +17,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body .first-block {
+ .first-block {
   padding-top: 5rem;
   display: flex;
   flex-direction: column;
-
   text-align: center;
+  justify-content: center;
+  
+  
 }
 
 .first-block span {
@@ -42,6 +44,8 @@ body .first-block {
   font-weight: 200;
   letter-spacing: 0.00625rem;
   color: #4d4f62;
+  justify-content: center;
+ 
 }
 
 .second-block {
