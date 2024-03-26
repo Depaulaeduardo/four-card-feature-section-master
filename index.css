@@ -13,12 +13,12 @@ body {
   flex-direction: column;
   height: 100vh;
   background: hsl(0, 0%, 98%);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Poppins", sans-serif;
 }
 
 body .first-block {
- padding-top: 80px ;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
 
@@ -30,28 +30,26 @@ body .first-block {
 }
 
 .heading-one {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 200;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.015625rem;
   color: #4d4f62;
 }
 
 .main-paragraph {
   text-align: center;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 200;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.00625rem;
   color: #4d4f62;
 }
-
- 
 
 .second-block {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
-  grid-column-gap: 30px;
-  grid-row-gap: 15px;
+  grid-column-gap: 1.875rem;
+  grid-row-gap: 0.9375rem;
   justify-content: center;
   align-items: center;
 
@@ -61,11 +59,11 @@ body .first-block {
 
 .card-one {
   border-top: 4px solid #00c8c8;
-  width: 350px;
-  height: 250px;
+  width: 21.875rem;
+  height: 15.625rem;
   background-color: #ffffff;
-  padding: 32px;
-  border-radius: 4px;
+  padding: 2rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
@@ -75,32 +73,32 @@ body .first-block {
 
 .card-one .img1 {
   content: url(images/icon-supervisor.svg);
-  width: 64px;
-  margin-left: 230px;
-  margin-top: 50px;
+  width: 4rem;
+  margin-left: 14.375rem;
+  margin-top: 3.125rem;
 }
 
 .supervisor {
   color: #474f62;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .monitors {
   color: #4d4f62;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 200;
   line-height: 1.5;
-  margin: 6px;
+  margin: 0.375rem;
 }
 
 .card-two {
   border-top: 4px solid #ff637b;
-  width: 350px;
-  height: 250px;
+  width: 21.875rem;
+  height: 15.625rem;
   background-color: #ffffff;
-  padding: 32px;
-  border-radius: 4px;
+  padding: 2rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
@@ -110,37 +108,34 @@ body .first-block {
 
 .card-two .img2 {
   content: url(images/icon-team-builder.svg);
-  width: 64px;
-  margin-left: 230px;
-  margin-top: 50px;
+  width: 4rem;
+  margin-left: 14.375rem;
+  margin-top: 3.125rem;
 }
 
 .team {
   color: #474f62;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .scans {
   color: #4d4f62;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 200;
   line-height: 1.5;
-  margin: 6px;
+  margin: 0.375rem;
 }
 
-/*.block3 img {
-  grid-area: imagem1;
-  padding: 154px 32px 32px 256px;
-}*/
+ 
 
 .card-three {
   border-top: 4px solid #ff9100;
-  width: 350px;
-  height: 250px;
+  width: 21.875rem;
+  height: 15.625rem;
   background-color: #ffffff;
-  padding: 32px;
-  border-radius: 4px;
+  padding: 2rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
@@ -150,32 +145,32 @@ body .first-block {
 
 .card-three .img3 {
   content: url(images/icon-karma.svg);
-  width: 64px;
-  margin-left: 230px;
-  margin-top: 50px;
+  width: 4rem;
+  margin-left: 14.375rem;
+  margin-top: 3.125rem;
 }
 
 .karma {
   color: #474f62;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .regularly {
   color: #4d4f62;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 200;
   line-height: 1.5;
-  margin: 6px;
+  margin: 0.375rem;
 }
 
 .card-four {
   border-top: 4px solid #377fd2;
-  width: 350px;
-  height: 250px;
+  width: 21.875rem;
+  height: 15.625rem;
   background-color: #ffffff;
-  padding: 32px;
-  border-radius: 4px;
+  padding: 2rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0.8px 0.8px 0.8px #dadae5;
 }
 
@@ -185,64 +180,55 @@ body .first-block {
 
 .card-four .img4 {
   content: url(images/icon-calculator.svg);
-  width: 64px;
-  margin-left: 230px;
-  margin-top: 50px;
+  width: 4rem;
+  margin-left: 14.375rem;
+  margin-top: 3.125rem;
 }
 
 .calculator {
   color: #474f62;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .uses {
   color: #4d4f62;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 200;
   line-height: 1.5;
-  margin: 6px;
+  margin: 0.375rem;
 }
 
 .card-footer {
-  margin-top: 78px;
+  margin-top: 4.875rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 70rem) {
   .first-block {
-    margin: 50px 32px 50px 32px;
-    
+    margin: 3.125rem 2rem 3.125rem 2rem;
   }
 
   body .first-block {
     padding: 0;
   }
 
-  
-
   .heading-one {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .main-paragraph {
-     
-    margin-top: 16px;
-     
+    margin-top: 1rem;
   }
 
   .second-block {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-     
-    height: 1360px;
-    
+    gap: 1.5625rem;
+
+    height: 85rem;
   }
 
   .second-block .card-one .card-two .card-three .card-four {
-    width: 311px;
+    width: 19.4375rem;
   }
-
-   
-   
 }
